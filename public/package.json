@@ -1,14 +1,7 @@
 {
   "name": "webd6201-lab4-jamesk",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.1",
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
-    "bower":"1.8.8"
-  },
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "start": "node server.js",
     "test": "mocha",
@@ -17,5 +10,15 @@
   "engines": {
     "node": "^12.0.0",
     "npm": "^6.0.0"
+  },
+  "dependencies": {
+    "bower": "^1.8.8",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.9.7",
+    "morgan": "~1.9.1"
   }
 }
